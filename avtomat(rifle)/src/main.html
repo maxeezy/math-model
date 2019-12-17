@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="begin">
+    <span>Какое количество подзадач у вас будет?</span>
+    <input type="text">
+    <button class="button-st">Go</button>
+</div>
+<div class="opisanie">
+    <p style="display: none">Следуя своей схеме выбирайте значение по порядку. В первом столбце поддзададача от которой идет стрелка, второй столбец поддзадача до которой идет стрелка. Поле ввода для "стоимости" подзадачи. Если возникли трудности
+        <a href="sample.html">перейдите на страницу с примером.</a></p>
+</div>
+<!-- /.opisanie -->
+<div class="wrap-all">
+    <div class="main-wrap">
+        <div class="main"></div>
+        <div class="buttons">
+            <button class="button button-st" style="margin-right: 10px;">Добавить</button>
+            <button class="edit button-st">Решить</button>
+        </div>
+        <!-- /.buttons -->
+    </div>
+    <!-- /.main-wrap -->
+    <div class="output" style="display: none"><div class="out-title" >Tj = max [ Ti + tij]</div></div>
+    <div class="output2" style="display: none"><div class="out-title" >Ti = max [ Tj - tij]</div></div>
+    <div class="output3">
+        <table>
+            <tr>
+                <td>Событие</td>
+                <td>Tn</td>
+                <td>Tp</td>
+                <td>R</td>
+            </tr>
+        </table>
+
+    </div>
+<!-- /.wrap-all -->
+</div>
+<script src="sc.js"></script>
+</body>
+</html>

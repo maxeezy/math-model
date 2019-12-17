@@ -1,0 +1,92 @@
+body{
+    background-color: #1c1b1a;
+    color: white;
+}
+.main{
+    display: none;
+    flex-direction: column;
+}
+.output3{
+    display: none;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.edit
+,.button{
+    display: none;
+}
+.wrap-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.output,
+.output2,
+.output3{
+    font-size: 25px;
+}
+.out-title{
+    font-size: 28px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+.output3{
+    margin-right: 50px;
+}
+.out-str{
+    margin-bottom: 25px;
+
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+input,
+select{
+    padding: 2px;
+}
+select{
+    margin-right: 10px;
+}
+span{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.begin{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.button-st{
+    text-align: center;
+    background: linear-gradient(to top left, powderblue, pink);
+    border: none;
+    border-radius: 5px;
+    height: 23px;
+    outline:none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input{
+    background-color: #ffeabd;
+    text-align: center;
+    outline:none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #ffeabd;
+}
